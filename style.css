@@ -129,14 +129,9 @@ li{
     margin-bottom:10px;
     line-height:1.6;
 }
-tml{
-    scroll-behavior:smooth;
-}
 
-section:hover{
-    transform:translateY(-3px);
-    transition:.3s;
-}
+
+
 .frase{
     background:#e8f5e9;
     padding:15px;
