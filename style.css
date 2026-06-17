@@ -61,9 +61,11 @@ nav a:hover{
 
 section{
     width:90%;
-    max-width:1200px;
-    margin:40px auto;
-    padding:25px;
+    margin:50px auto;
+    padding:40px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
 }
 
 .contenido{
@@ -106,14 +108,15 @@ p{
 
 @media(max-width:768px){
 
+    .overlay h1{
+        font-size:2rem;
+    }
+
     .contenido{
-
         flex-direction:column;
-
     }
 
 }
-
 
     .video iframe{
         height:220px;
@@ -129,9 +132,14 @@ li{
     margin-bottom:10px;
     line-height:1.6;
 }
+tml{
+    scroll-behavior:smooth;
+}
 
-
-
+section:hover{
+    transform:translateY(-3px);
+    transition:.3s;
+}
 .frase{
     background:#e8f5e9;
     padding:15px;
@@ -265,9 +273,4 @@ border-radius:10px;
 
 .multimedia{
     flex:1;
-}
-img{
-    width:100%;
-    max-width:400px;
-    height:auto;
 }
