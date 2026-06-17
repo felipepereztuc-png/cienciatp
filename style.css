@@ -116,11 +116,13 @@ p{
         flex-direction:column;
     }
 
+}
+
     .video iframe{
         height:220px;
     }
 
-}
+
 ul{
     margin-top:15px;
     padding-left:25px;
@@ -257,4 +259,18 @@ border-radius:10px;
 
 .boton-video:hover{
     background:#1b5e20;
+}
+.contenido{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+}
+
+.texto{
+    flex:1;
+}
+
+.multimedia{
+    flex:1;
 }
