@@ -203,3 +203,58 @@ footer p{
     background:#1c301c;
 
 }
+
+.video-link{
+
+background:#e8f5e9;
+
+padding:20px;
+
+border-radius:15px;
+
+text-align:center;
+
+}
+
+.video-link a{
+
+display:inline-block;
+
+margin-top:15px;
+
+padding:12px 20px;
+
+background:#2e7d32;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:10px;
+
+}
+.multimedia{
+    flex:1;
+    text-align:center;
+}
+
+.multimedia img{
+    width:100%;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.boton-video{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 20px;
+    background:#2e7d32;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.boton-video:hover{
+    background:#1b5e20;
+}
