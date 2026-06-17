@@ -10,7 +10,7 @@ body{
 }
 
 .banner{
-    background-image:url(img/banner.jpg);
+    background-image:url(assets/ChatGPT\ Image\ 17\ jun\ 2026\,\ 13_51_43.png);
     background-size:cover;
     background-position:center;
     height:60vh;
@@ -39,7 +39,7 @@ body{
 }
 
 nav{
-    background:#2e7d32;
+    background:#232e23;
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
@@ -50,13 +50,13 @@ nav{
 nav a{
     color:white;
     text-decoration:none;
-    background:#388e3c;
+    background:#192419;
     padding:10px 20px;
     border-radius:8px;
 }
 
 nav a:hover{
-    background:#1b5e20;
+    background:#536353;
 }
 
 section{
@@ -90,14 +90,14 @@ section{
 }
 
 h2{
-    color:#2e7d32;
+    color:#1a271a;
     margin-bottom:15px;
 }
 
 hr{
     width:80px;
     height:4px;
-    background:#2e7d32;
+    background:#162217;
     border:none;
     margin-bottom:25px;
 }
@@ -141,8 +141,65 @@ section:hover{
 .frase{
     background:#e8f5e9;
     padding:15px;
-    border-left:5px solid #2e7d32;
+    border-left:5px solid #1b251b;
     border-radius:8px;
     margin:20px 0;
     font-style:italic;
+}
+
+
+footer{
+
+    background:#101810;
+
+    color:white;
+
+    text-align:center;
+
+    padding:50px 20px;
+
+    margin-top:50px;
+
+}
+
+footer h2{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+footer p{
+
+    margin:10px 0;
+
+}
+
+.boton{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:15px 25px;
+
+    background:white;
+
+    color:#0f180f;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.boton:hover{
+
+    background:#1c301c;
+
 }
